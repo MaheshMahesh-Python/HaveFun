@@ -10,9 +10,6 @@ COPY . /app
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-{
-  "credsStore": "osxkeychain"
-}
 
 # Expose the port the application listens on
 EXPOSE 8000
